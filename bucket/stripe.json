@@ -15,7 +15,9 @@
         }
     },
     "bin": "stripe.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/stripe/stripe-cli"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
