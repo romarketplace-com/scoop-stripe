@@ -1,5 +1,5 @@
 {
-    "version": "1.27.00",
+    "version": "1.27.0",
     "description": "Stripe's CLI Tool",
     "homepage": "https://github.com/stripe/stripe-cli",
     "license": "Apache-2.0",
@@ -15,9 +15,7 @@
         }
     },
     "bin": "stripe.exe",
-    "checkver": {
-        "github": "https://github.com/stripe/stripe-cli"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
