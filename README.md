@@ -30,8 +30,8 @@ Template bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 After manifests have been committed and pushed, run the following:
 
 ```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
-scoop install <bucketname>/<manifestname>
+scoop bucket add stripe-unofficial https://github.com/romarketplace-com/scoop-stripe
+scoop install stripe-unofficial/stripe
 ```
 
 ## How do I contribute new manifests?
